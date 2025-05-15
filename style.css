@@ -1,1 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Example</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1 id="title">Welcome!</h1>
+
+  <p class="intro">This is a styled paragraph.</p>
+
+  <img src="https://via.placeholder.com/150" class="my-image" alt="Sample Image">
+
+</body>
+</html>
+/* ID Selector */
+#title {
+  color: blue;
+  font-family: Arial, sans-serif;
+}
+
+/* Class Selector */
+.intro {
+  color: green;
+  font-size: 18px;
+  margin: 20px;
+  padding: 10px;
+}
+
+/* Image styling */
+.my-image {
+  border: 3px solid red;
+  padding: 5px;
+  margin: 10px;
+}
 
